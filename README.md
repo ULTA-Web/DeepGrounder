@@ -1,2 +1,2 @@
-# EarthGrounding
-![image](https://github.com/lexsaints/powershell/blob/master/IMG/ps2.png)
+# DeepGrounder
+![image](DeepGrounder/logo_white.png)
