@@ -1,0 +1,15 @@
+{"time":"2025-07-02T12:37:01.285664036Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/offline-run-20250702_123700-fyna4pso/logs/debug-core.log"}
+{"time":"2025-07-02T12:37:01.596941952Z","level":"INFO","msg":"created new stream","id":"fyna4pso"}
+{"time":"2025-07-02T12:37:01.600735201Z","level":"INFO","msg":"stream: started","id":"fyna4pso"}
+{"time":"2025-07-02T12:37:01.600770044Z","level":"INFO","msg":"writer: Do: started","stream_id":"fyna4pso"}
+{"time":"2025-07-02T12:37:01.600791323Z","level":"INFO","msg":"sender: started","stream_id":"fyna4pso"}
+{"time":"2025-07-02T12:37:01.600799252Z","level":"INFO","msg":"handler: started","stream_id":"fyna4pso"}
+{"time":"2025-07-02T12:37:01.678600043Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-02T12:37:09.479335604Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-02T12:37:09.483249046Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-02T12:37:09.486556668Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-07-02T12:37:09.511721297Z","level":"INFO","msg":"stream: closing","id":"fyna4pso"}
+{"time":"2025-07-02T12:37:09.518380469Z","level":"INFO","msg":"handler: closed","stream_id":"fyna4pso"}
+{"time":"2025-07-02T12:37:09.518532542Z","level":"INFO","msg":"writer: Close: closed","stream_id":"fyna4pso"}
+{"time":"2025-07-02T12:37:09.518542537Z","level":"INFO","msg":"sender: closed","stream_id":"fyna4pso"}
+{"time":"2025-07-02T12:37:09.534373639Z","level":"INFO","msg":"stream: closed","id":"fyna4pso"}

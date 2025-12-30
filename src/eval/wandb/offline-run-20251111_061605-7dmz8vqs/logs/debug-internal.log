@@ -1,0 +1,15 @@
+{"time":"2025-11-11T06:16:05.343720657Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/offline-run-20251111_061605-7dmz8vqs/logs/debug-core.log"}
+{"time":"2025-11-11T06:16:05.475650286Z","level":"INFO","msg":"created new stream","id":"7dmz8vqs"}
+{"time":"2025-11-11T06:16:05.475762167Z","level":"INFO","msg":"stream: started","id":"7dmz8vqs"}
+{"time":"2025-11-11T06:16:05.47580412Z","level":"INFO","msg":"sender: started","stream_id":"7dmz8vqs"}
+{"time":"2025-11-11T06:16:05.47579113Z","level":"INFO","msg":"handler: started","stream_id":"7dmz8vqs"}
+{"time":"2025-11-11T06:16:05.475783884Z","level":"INFO","msg":"writer: Do: started","stream_id":"7dmz8vqs"}
+{"time":"2025-11-11T06:16:05.548449067Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-11-11T06:16:19.751959628Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-11-11T06:16:19.752705861Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-11-11T06:16:19.753314704Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-11-11T06:16:19.763337476Z","level":"INFO","msg":"stream: closing","id":"7dmz8vqs"}
+{"time":"2025-11-11T06:16:19.763422795Z","level":"INFO","msg":"handler: closed","stream_id":"7dmz8vqs"}
+{"time":"2025-11-11T06:16:19.763440395Z","level":"INFO","msg":"writer: Close: closed","stream_id":"7dmz8vqs"}
+{"time":"2025-11-11T06:16:19.763445302Z","level":"INFO","msg":"sender: closed","stream_id":"7dmz8vqs"}
+{"time":"2025-11-11T06:16:19.76927072Z","level":"INFO","msg":"stream: closed","id":"7dmz8vqs"}

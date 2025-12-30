@@ -1,0 +1,15 @@
+{"time":"2025-07-26T06:17:15.048831738Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/offline-run-20250726_061714-cifli48v/logs/debug-core.log"}
+{"time":"2025-07-26T06:17:15.180857395Z","level":"INFO","msg":"created new stream","id":"cifli48v"}
+{"time":"2025-07-26T06:17:15.181102108Z","level":"INFO","msg":"stream: started","id":"cifli48v"}
+{"time":"2025-07-26T06:17:15.181241144Z","level":"INFO","msg":"writer: Do: started","stream_id":"cifli48v"}
+{"time":"2025-07-26T06:17:15.181353794Z","level":"INFO","msg":"sender: started","stream_id":"cifli48v"}
+{"time":"2025-07-26T06:17:15.181416139Z","level":"INFO","msg":"handler: started","stream_id":"cifli48v"}
+{"time":"2025-07-26T06:17:15.210824049Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-26T20:48:41.284468411Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-26T20:48:41.286465994Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-26T20:48:41.299430011Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-07-26T20:48:41.328549983Z","level":"INFO","msg":"stream: closing","id":"cifli48v"}
+{"time":"2025-07-26T20:48:41.328640307Z","level":"INFO","msg":"handler: closed","stream_id":"cifli48v"}
+{"time":"2025-07-26T20:48:41.328709245Z","level":"INFO","msg":"sender: closed","stream_id":"cifli48v"}
+{"time":"2025-07-26T20:48:41.32869628Z","level":"INFO","msg":"writer: Close: closed","stream_id":"cifli48v"}
+{"time":"2025-07-26T20:48:41.33654417Z","level":"INFO","msg":"stream: closed","id":"cifli48v"}

@@ -1,0 +1,16 @@
+{"time":"2025-05-17T08:51:16.250400054Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/run-20250517_085116-5qiyik4m/logs/debug-core.log"}
+{"time":"2025-05-17T08:51:16.466211057Z","level":"INFO","msg":"created new stream","id":"5qiyik4m"}
+{"time":"2025-05-17T08:51:16.466553564Z","level":"INFO","msg":"stream: started","id":"5qiyik4m"}
+{"time":"2025-05-17T08:51:16.466700519Z","level":"INFO","msg":"writer: Do: started","stream_id":"5qiyik4m"}
+{"time":"2025-05-17T08:51:16.466748897Z","level":"INFO","msg":"handler: started","stream_id":"5qiyik4m"}
+{"time":"2025-05-17T08:51:16.466791977Z","level":"INFO","msg":"sender: started","stream_id":"5qiyik4m"}
+{"time":"2025-05-17T08:51:17.296795085Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-17T10:40:45.355655158Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-17T10:40:45.356881046Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-17T10:40:46.357671933Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.468852921,"progress":"64.0KB/173.9KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.468830677,"progress":"296B/296B"},{"desc":"uploading config.yaml","runtime_seconds":0.220814763,"progress":"893B/893B"}],"total_operations":3}}
+{"time":"2025-05-17T10:40:48.25497259Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-17T10:40:48.919681737Z","level":"INFO","msg":"stream: closing","id":"5qiyik4m"}
+{"time":"2025-05-17T10:40:48.919994219Z","level":"INFO","msg":"handler: closed","stream_id":"5qiyik4m"}
+{"time":"2025-05-17T10:40:48.920129708Z","level":"INFO","msg":"writer: Close: closed","stream_id":"5qiyik4m"}
+{"time":"2025-05-17T10:40:48.920226556Z","level":"INFO","msg":"sender: closed","stream_id":"5qiyik4m"}
+{"time":"2025-05-17T10:40:48.92803658Z","level":"INFO","msg":"stream: closed","id":"5qiyik4m"}

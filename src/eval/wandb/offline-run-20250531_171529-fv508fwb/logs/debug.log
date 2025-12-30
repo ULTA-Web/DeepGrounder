@@ -1,0 +1,23 @@
+2025-05-31 17:15:29,745 INFO    MainThread:2537 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/offline-run-20250531_171529-fv508fwb/logs/debug.log
+2025-05-31 17:15:29,746 INFO    MainThread:2537 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/offline-run-20250531_171529-fv508fwb/logs/debug-internal.log
+2025-05-31 17:15:29,746 INFO    MainThread:2537 [wandb_init.py:init():761] calling init triggers
+2025-05-31 17:15:29,747 INFO    MainThread:2537 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'checkpoint': 'checkpoint-700', 'model': 'Qwen2.5-VL-3B-GRPO-RRSISD1', '_wandb': {}}
+2025-05-31 17:15:29,747 INFO    MainThread:2537 [wandb_init.py:init():784] starting backend
+2025-05-31 17:15:29,747 INFO    MainThread:2537 [wandb_init.py:init():788] sending inform_init request
+2025-05-31 17:15:29,760 INFO    MainThread:2537 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-05-31 17:15:29,761 INFO    MainThread:2537 [wandb_init.py:init():798] backend started and connected
+2025-05-31 17:15:29,782 INFO    MainThread:2537 [wandb_init.py:init():891] updated telemetry
+2025-05-31 17:15:29,803 INFO    MainThread:2537 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-05-31 17:15:29,952 INFO    MainThread:2537 [wandb_init.py:init():990] starting run threads in backend
+2025-05-31 17:15:31,357 INFO    MainThread:2537 [wandb_run.py:_console_start():2375] atexit reg
+2025-05-31 17:15:31,358 INFO    MainThread:2537 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-05-31 17:15:31,359 INFO    MainThread:2537 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-05-31 17:15:31,359 INFO    MainThread:2537 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-05-31 17:15:31,366 INFO    MainThread:2537 [wandb_init.py:init():1032] run started, returning control to user process
+2025-05-31 19:07:57,960 INFO    MainThread:2537 [wandb_run.py:_finish():2112] finishing run ckpt-test/fv508fwb
+2025-05-31 19:07:57,961 INFO    MainThread:2537 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-05-31 19:07:57,971 INFO    MainThread:2537 [wandb_run.py:_restore():2322] restore
+2025-05-31 19:07:57,971 INFO    MainThread:2537 [wandb_run.py:_restore():2328] restore done
+2025-05-31 19:07:57,975 INFO    MainThread:2537 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-05-31 19:07:57,976 INFO    MainThread:2537 [wandb_run.py:_footer_history_summary_info():3988] rendering summary

@@ -1,0 +1,24 @@
+{"time":"2025-05-16T16:42:19.273023457Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/run-20250516_164219-utdmvj3b/logs/debug-core.log"}
+{"time":"2025-05-16T16:42:19.450236935Z","level":"INFO","msg":"created new stream","id":"utdmvj3b"}
+{"time":"2025-05-16T16:42:19.450397895Z","level":"INFO","msg":"stream: started","id":"utdmvj3b"}
+{"time":"2025-05-16T16:42:19.450503217Z","level":"INFO","msg":"writer: Do: started","stream_id":"utdmvj3b"}
+{"time":"2025-05-16T16:42:19.450529249Z","level":"INFO","msg":"handler: started","stream_id":"utdmvj3b"}
+{"time":"2025-05-16T16:42:19.450557064Z","level":"INFO","msg":"sender: started","stream_id":"utdmvj3b"}
+{"time":"2025-05-16T16:42:20.198232725Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-16T16:54:36.460710186Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/zhangjiafan021203-beihang-university/ckpt-test/utdmvj3b/file_stream\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-05-16T17:23:08.31018327Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/zhangjiafan021203-beihang-university/ckpt-test/utdmvj3b/file_stream\": unexpected EOF"}
+{"time":"2025-05-16T17:31:19.908934272Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/zhangjiafan021203-beihang-university/ckpt-test/utdmvj3b/file_stream\": read tcp 172.169.0.2:39062->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-16T18:22:14.095115638Z","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/zhangjiafan021203-beihang-university/ckpt-test/utdmvj3b/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-05-16T18:22:27.637016898Z","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/zhangjiafan021203-beihang-university/ckpt-test/utdmvj3b/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-05-16T18:22:53.220996786Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-05-16T18:23:04.820317548Z","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/zhangjiafan021203-beihang-university/ckpt-test/utdmvj3b/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-05-16T18:23:19.686469336Z","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/zhangjiafan021203-beihang-university/ckpt-test/utdmvj3b/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-05-16T18:29:12.905986503Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-16T18:29:12.907151107Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-16T18:29:13.909397721Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.391810473,"progress":"64.0KB/173.9KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.391794041,"progress":"298B/298B"},{"desc":"uploading config.yaml","runtime_seconds":0.122252147,"progress":"893B/893B"}],"total_operations":3}}
+{"time":"2025-05-16T18:29:15.54136052Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-16T18:29:16.247101509Z","level":"INFO","msg":"stream: closing","id":"utdmvj3b"}
+{"time":"2025-05-16T18:29:16.247396036Z","level":"INFO","msg":"handler: closed","stream_id":"utdmvj3b"}
+{"time":"2025-05-16T18:29:16.247529562Z","level":"INFO","msg":"writer: Close: closed","stream_id":"utdmvj3b"}
+{"time":"2025-05-16T18:29:16.247639188Z","level":"INFO","msg":"sender: closed","stream_id":"utdmvj3b"}
+{"time":"2025-05-16T18:29:16.256398978Z","level":"INFO","msg":"stream: closed","id":"utdmvj3b"}

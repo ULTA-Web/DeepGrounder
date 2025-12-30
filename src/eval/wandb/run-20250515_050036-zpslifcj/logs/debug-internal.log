@@ -1,0 +1,16 @@
+{"time":"2025-05-15T05:00:36.798970686Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/run-20250515_050036-zpslifcj/logs/debug-core.log"}
+{"time":"2025-05-15T05:00:36.949488761Z","level":"INFO","msg":"created new stream","id":"zpslifcj"}
+{"time":"2025-05-15T05:00:36.949684794Z","level":"INFO","msg":"stream: started","id":"zpslifcj"}
+{"time":"2025-05-15T05:00:36.949832311Z","level":"INFO","msg":"writer: Do: started","stream_id":"zpslifcj"}
+{"time":"2025-05-15T05:00:36.949952472Z","level":"INFO","msg":"handler: started","stream_id":"zpslifcj"}
+{"time":"2025-05-15T05:00:36.949971626Z","level":"INFO","msg":"sender: started","stream_id":"zpslifcj"}
+{"time":"2025-05-15T05:00:37.621154798Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-15T05:54:25.278084674Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-15T05:54:25.279316058Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-15T05:54:26.281137681Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.466461779,"progress":"64.0KB/87.2KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.466445919,"progress":"295B/295B"},{"desc":"uploading config.yaml","runtime_seconds":0.186786451,"progress":"893B/893B"}],"total_operations":3}}
+{"time":"2025-05-15T05:54:27.050640027Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-15T05:54:27.655409002Z","level":"INFO","msg":"stream: closing","id":"zpslifcj"}
+{"time":"2025-05-15T05:54:27.655728194Z","level":"INFO","msg":"handler: closed","stream_id":"zpslifcj"}
+{"time":"2025-05-15T05:54:27.655860394Z","level":"INFO","msg":"writer: Close: closed","stream_id":"zpslifcj"}
+{"time":"2025-05-15T05:54:27.655974366Z","level":"INFO","msg":"sender: closed","stream_id":"zpslifcj"}
+{"time":"2025-05-15T05:54:27.666292814Z","level":"INFO","msg":"stream: closed","id":"zpslifcj"}

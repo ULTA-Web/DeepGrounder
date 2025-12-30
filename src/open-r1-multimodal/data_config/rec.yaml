@@ -1,0 +1,16 @@
+#datasets:
+#    - json_path: /mnt/user/zhangjiafan/VLM-R1-main/rec_jsons_processed/refcoco_train.json
+#    - json_path: /mnt/user/zhangjiafan/VLM-R1-main/rec_jsons_processed/refcocop_train.json
+#    - json_path: /mnt/user/zhangjiafan/VLM-R1-main/rec_jsons_processed/refcocog_train.json
+
+
+
+#
+datasets:
+    - json_path: /mnt/user/zhangjiafan/VLM-R1-main/rec_jsons_processed/DIOR-RSVG/train_rsvg.jsonl
+#    - json_path: /mnt/user/zhangjiafan/VLM-R1-main/rec_jsons_processed/RRSISD/train.jsonl
+#    - json_path: /mnt/user/zhangjiafan/VLM-R1-main/rec_jsons_processed/RRSISD/val.jsonl
+#    - json_path: /mnt/user/zhangjiafan/VLM-R1-main/rec_jsons_processed/RRSISD/test.jsonl
+
+#datasets:
+#    - json_path: /mnt/user/zhangjiafan/VLM-R1-main/rec_jsons_processed/RRSISD/low_iou_annotations.jsonl

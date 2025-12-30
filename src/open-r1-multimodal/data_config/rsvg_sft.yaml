@@ -1,0 +1,2 @@
+datasets:
+    - json_path: /mnt/user/zhangjiafan/VLM-R1-main/mllm_rec_json.json

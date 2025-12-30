@@ -1,0 +1,18 @@
+{"time":"2025-05-15T13:27:23.785206622Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/run-20250515_132723-by6y9sr2/logs/debug-core.log"}
+{"time":"2025-05-15T13:27:23.947049508Z","level":"INFO","msg":"created new stream","id":"by6y9sr2"}
+{"time":"2025-05-15T13:27:23.947239429Z","level":"INFO","msg":"stream: started","id":"by6y9sr2"}
+{"time":"2025-05-15T13:27:23.947301054Z","level":"INFO","msg":"writer: Do: started","stream_id":"by6y9sr2"}
+{"time":"2025-05-15T13:27:23.947336097Z","level":"INFO","msg":"sender: started","stream_id":"by6y9sr2"}
+{"time":"2025-05-15T13:27:23.947447592Z","level":"INFO","msg":"handler: started","stream_id":"by6y9sr2"}
+{"time":"2025-05-15T13:27:24.673751665Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-15T13:30:06.427947678Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/zhangjiafan021203-beihang-university/checkpoint-evaluation/by6y9sr2/file_stream\": read tcp 172.169.0.4:53200->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-15T13:56:44.752235261Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/zhangjiafan021203-beihang-university/checkpoint-evaluation/by6y9sr2/file_stream\": unexpected EOF"}
+{"time":"2025-05-15T14:24:05.005921221Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-15T14:24:05.007414086Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-15T14:24:05.978083002Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run config","runtime_seconds":0.056958433}],"total_operations":1}}
+{"time":"2025-05-15T14:24:07.463854127Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-15T14:24:08.124307656Z","level":"INFO","msg":"stream: closing","id":"by6y9sr2"}
+{"time":"2025-05-15T14:24:08.124441809Z","level":"INFO","msg":"handler: closed","stream_id":"by6y9sr2"}
+{"time":"2025-05-15T14:24:08.124625378Z","level":"INFO","msg":"writer: Close: closed","stream_id":"by6y9sr2"}
+{"time":"2025-05-15T14:24:08.124641102Z","level":"INFO","msg":"sender: closed","stream_id":"by6y9sr2"}
+{"time":"2025-05-15T14:24:08.14138309Z","level":"INFO","msg":"stream: closed","id":"by6y9sr2"}

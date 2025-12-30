@@ -1,0 +1,18 @@
+{"time":"2025-05-16T20:18:09.546253817Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/run-20250516_201809-31m4bcvd/logs/debug-core.log"}
+{"time":"2025-05-16T20:18:09.757496663Z","level":"INFO","msg":"created new stream","id":"31m4bcvd"}
+{"time":"2025-05-16T20:18:09.757845715Z","level":"INFO","msg":"stream: started","id":"31m4bcvd"}
+{"time":"2025-05-16T20:18:09.757974903Z","level":"INFO","msg":"writer: Do: started","stream_id":"31m4bcvd"}
+{"time":"2025-05-16T20:18:09.758007482Z","level":"INFO","msg":"handler: started","stream_id":"31m4bcvd"}
+{"time":"2025-05-16T20:18:09.758034402Z","level":"INFO","msg":"sender: started","stream_id":"31m4bcvd"}
+{"time":"2025-05-16T20:18:10.53175929Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-16T20:39:00.035720749Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/zhangjiafan021203-beihang-university/ckpt-test/31m4bcvd/file_stream\": unexpected EOF"}
+{"time":"2025-05-16T21:11:09.445358615Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/zhangjiafan021203-beihang-university/ckpt-test/31m4bcvd/file_stream\": read tcp 172.169.0.2:50184->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-16T22:03:48.910883536Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-16T22:03:48.91207893Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-16T22:03:49.91385421Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.472473811},{"desc":"uploading wandb-summary.json","runtime_seconds":0.472456236},{"desc":"uploading config.yaml","runtime_seconds":0.215245392}],"total_operations":3}}
+{"time":"2025-05-16T22:03:52.916875133Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-16T22:03:53.52834448Z","level":"INFO","msg":"stream: closing","id":"31m4bcvd"}
+{"time":"2025-05-16T22:03:53.528670131Z","level":"INFO","msg":"handler: closed","stream_id":"31m4bcvd"}
+{"time":"2025-05-16T22:03:53.528801913Z","level":"INFO","msg":"writer: Close: closed","stream_id":"31m4bcvd"}
+{"time":"2025-05-16T22:03:53.528922801Z","level":"INFO","msg":"sender: closed","stream_id":"31m4bcvd"}
+{"time":"2025-05-16T22:03:53.537936Z","level":"INFO","msg":"stream: closed","id":"31m4bcvd"}

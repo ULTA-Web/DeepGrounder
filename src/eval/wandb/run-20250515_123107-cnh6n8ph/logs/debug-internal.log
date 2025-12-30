@@ -1,0 +1,17 @@
+{"time":"2025-05-15T12:31:07.513463712Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/run-20250515_123107-cnh6n8ph/logs/debug-core.log"}
+{"time":"2025-05-15T12:31:07.666611385Z","level":"INFO","msg":"created new stream","id":"cnh6n8ph"}
+{"time":"2025-05-15T12:31:07.666890069Z","level":"INFO","msg":"stream: started","id":"cnh6n8ph"}
+{"time":"2025-05-15T12:31:07.667018774Z","level":"INFO","msg":"writer: Do: started","stream_id":"cnh6n8ph"}
+{"time":"2025-05-15T12:31:07.667190478Z","level":"INFO","msg":"sender: started","stream_id":"cnh6n8ph"}
+{"time":"2025-05-15T12:31:07.667140199Z","level":"INFO","msg":"handler: started","stream_id":"cnh6n8ph"}
+{"time":"2025-05-15T12:31:08.4073037Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-15T13:16:29.444081724Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/zhangjiafan021203-beihang-university/checkpoint-evaluation/cnh6n8ph/file_stream\": read tcp 172.169.0.4:59214->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-15T13:27:21.156940068Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-15T13:27:21.208903068Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-15T13:27:22.128835054Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.404104145,"progress":"64.0KB/87.2KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.404089042,"progress":"298B/298B"},{"desc":"uploading config.yaml","runtime_seconds":0.128795342,"progress":"893B/893B"}],"total_operations":3}}
+{"time":"2025-05-15T13:27:22.96512388Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-15T13:27:23.609649648Z","level":"INFO","msg":"stream: closing","id":"cnh6n8ph"}
+{"time":"2025-05-15T13:27:23.610099578Z","level":"INFO","msg":"handler: closed","stream_id":"cnh6n8ph"}
+{"time":"2025-05-15T13:27:23.610262578Z","level":"INFO","msg":"writer: Close: closed","stream_id":"cnh6n8ph"}
+{"time":"2025-05-15T13:27:23.610371574Z","level":"INFO","msg":"sender: closed","stream_id":"cnh6n8ph"}
+{"time":"2025-05-15T13:27:23.617911653Z","level":"INFO","msg":"stream: closed","id":"cnh6n8ph"}

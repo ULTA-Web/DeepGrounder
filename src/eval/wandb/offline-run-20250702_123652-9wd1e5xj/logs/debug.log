@@ -1,0 +1,29 @@
+2025-07-02 12:36:52,551 INFO    MainThread:117 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/offline-run-20250702_123652-9wd1e5xj/logs/debug.log
+2025-07-02 12:36:52,555 INFO    MainThread:117 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/offline-run-20250702_123652-9wd1e5xj/logs/debug-internal.log
+2025-07-02 12:36:52,557 INFO    MainThread:117 [wandb_init.py:init():761] calling init triggers
+2025-07-02 12:36:52,559 INFO    MainThread:117 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'checkpoint': 'checkpoint-1100', 'model': 'Qwen2.5-VL-3B-GRPO-RRSISD1', '_wandb': {}}
+2025-07-02 12:36:52,561 INFO    MainThread:117 [wandb_init.py:init():784] starting backend
+2025-07-02 12:36:52,570 INFO    MainThread:117 [wandb_init.py:init():788] sending inform_init request
+2025-07-02 12:36:52,600 INFO    MainThread:117 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-07-02 12:36:52,601 INFO    MainThread:117 [wandb_init.py:init():798] backend started and connected
+2025-07-02 12:36:52,614 INFO    MainThread:117 [wandb_init.py:init():891] updated telemetry
+2025-07-02 12:36:52,690 INFO    MainThread:117 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-07-02 12:36:52,977 INFO    MainThread:117 [wandb_init.py:init():990] starting run threads in backend
+2025-07-02 12:37:00,228 INFO    MainThread:117 [wandb_run.py:_console_start():2375] atexit reg
+2025-07-02 12:37:00,228 INFO    MainThread:117 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-07-02 12:37:00,230 INFO    MainThread:117 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-07-02 12:37:00,232 INFO    MainThread:117 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-07-02 12:37:00,285 INFO    MainThread:117 [wandb_init.py:init():1032] run started, returning control to user process
+2025-07-02 12:37:00,644 INFO    MainThread:117 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/offline-run-20250702_123700-fyna4pso/logs/debug.log
+2025-07-02 12:37:00,667 INFO    MainThread:117 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/offline-run-20250702_123700-fyna4pso/logs/debug-internal.log
+2025-07-02 12:37:00,668 INFO    MainThread:117 [wandb_init.py:init():761] calling init triggers
+2025-07-02 12:37:00,674 INFO    MainThread:117 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'checkpoint': 'checkpoint-1200', 'model': 'Qwen2.5-VL-3B-GRPO-RRSISD1', '_wandb': {}}
+2025-07-02 12:37:00,678 INFO    MainThread:117 [wandb_init.py:init():773] finishing previous run: 9wd1e5xj
+2025-07-02 12:37:00,686 INFO    MainThread:117 [wandb_run.py:_finish():2112] finishing run ckpt-test/9wd1e5xj
+2025-07-02 12:37:00,692 INFO    MainThread:117 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-07-02 12:37:00,705 INFO    MainThread:117 [wandb_run.py:_restore():2322] restore
+2025-07-02 12:37:00,708 INFO    MainThread:117 [wandb_run.py:_restore():2328] restore done
+2025-07-02 12:37:00,904 INFO    MainThread:117 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-07-02 12:37:00,909 INFO    MainThread:117 [wandb_run.py:_footer_history_summary_info():3988] rendering summary

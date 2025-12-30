@@ -1,0 +1,16 @@
+{"time":"2025-05-29T14:42:07.687481252Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/run-20250529_144207-cuttevpa/logs/debug-core.log"}
+{"time":"2025-05-29T14:42:07.842769458Z","level":"INFO","msg":"created new stream","id":"cuttevpa"}
+{"time":"2025-05-29T14:42:07.843040053Z","level":"INFO","msg":"stream: started","id":"cuttevpa"}
+{"time":"2025-05-29T14:42:07.843077192Z","level":"INFO","msg":"writer: Do: started","stream_id":"cuttevpa"}
+{"time":"2025-05-29T14:42:07.843111402Z","level":"INFO","msg":"handler: started","stream_id":"cuttevpa"}
+{"time":"2025-05-29T14:42:07.84313171Z","level":"INFO","msg":"sender: started","stream_id":"cuttevpa"}
+{"time":"2025-05-29T14:42:08.601966594Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-29T16:43:03.226474804Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-29T16:43:03.227897465Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-29T16:43:04.199596151Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.383267632,"progress":"64.0KB/173.9KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.383248402,"progress":"296B/296B"},{"desc":"uploading config.yaml","runtime_seconds":0.054029446,"progress":"897B/897B"}],"total_operations":3}}
+{"time":"2025-05-29T16:43:05.016181649Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-29T16:43:05.633259844Z","level":"INFO","msg":"stream: closing","id":"cuttevpa"}
+{"time":"2025-05-29T16:43:05.633411483Z","level":"INFO","msg":"handler: closed","stream_id":"cuttevpa"}
+{"time":"2025-05-29T16:43:05.633577043Z","level":"INFO","msg":"sender: closed","stream_id":"cuttevpa"}
+{"time":"2025-05-29T16:43:05.633549747Z","level":"INFO","msg":"writer: Close: closed","stream_id":"cuttevpa"}
+{"time":"2025-05-29T16:43:05.651709143Z","level":"INFO","msg":"stream: closed","id":"cuttevpa"}

@@ -1,0 +1,16 @@
+{"time":"2025-05-17T03:23:51.251467452Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/run-20250517_032351-ncguqkah/logs/debug-core.log"}
+{"time":"2025-05-17T03:23:51.412887768Z","level":"INFO","msg":"created new stream","id":"ncguqkah"}
+{"time":"2025-05-17T03:23:51.413080565Z","level":"INFO","msg":"stream: started","id":"ncguqkah"}
+{"time":"2025-05-17T03:23:51.413191363Z","level":"INFO","msg":"writer: Do: started","stream_id":"ncguqkah"}
+{"time":"2025-05-17T03:23:51.413226443Z","level":"INFO","msg":"handler: started","stream_id":"ncguqkah"}
+{"time":"2025-05-17T03:23:51.413247384Z","level":"INFO","msg":"sender: started","stream_id":"ncguqkah"}
+{"time":"2025-05-17T03:23:52.164649868Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-17T05:13:34.065756129Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-17T05:13:34.067119492Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-17T05:13:35.069145223Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.505012259,"progress":"64.0KB/173.9KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.443683107,"progress":"299B/299B"},{"desc":"uploading config.yaml","runtime_seconds":0.178693208,"progress":"893B/893B"}],"total_operations":3}}
+{"time":"2025-05-17T05:13:35.838447849Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-17T05:13:36.468095248Z","level":"INFO","msg":"stream: closing","id":"ncguqkah"}
+{"time":"2025-05-17T05:13:36.468409334Z","level":"INFO","msg":"handler: closed","stream_id":"ncguqkah"}
+{"time":"2025-05-17T05:13:36.46846293Z","level":"INFO","msg":"writer: Close: closed","stream_id":"ncguqkah"}
+{"time":"2025-05-17T05:13:36.468583806Z","level":"INFO","msg":"sender: closed","stream_id":"ncguqkah"}
+{"time":"2025-05-17T05:13:36.501400221Z","level":"INFO","msg":"stream: closed","id":"ncguqkah"}

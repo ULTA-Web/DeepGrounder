@@ -1,0 +1,16 @@
+{"time":"2025-05-15T04:04:10.656053936Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/run-20250515_040409-b2r78045/logs/debug-core.log"}
+{"time":"2025-05-15T04:04:10.83604385Z","level":"INFO","msg":"created new stream","id":"b2r78045"}
+{"time":"2025-05-15T04:04:10.836320586Z","level":"INFO","msg":"stream: started","id":"b2r78045"}
+{"time":"2025-05-15T04:04:10.836464553Z","level":"INFO","msg":"writer: Do: started","stream_id":"b2r78045"}
+{"time":"2025-05-15T04:04:10.836609183Z","level":"INFO","msg":"sender: started","stream_id":"b2r78045"}
+{"time":"2025-05-15T04:04:10.836740676Z","level":"INFO","msg":"handler: started","stream_id":"b2r78045"}
+{"time":"2025-05-15T04:04:11.560154673Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-15T05:00:34.132991419Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-15T05:00:34.134578284Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-15T05:00:35.110162549Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.425647011,"progress":"64.0KB/87.8KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.425601433,"progress":"297B/297B"},{"desc":"uploading config.yaml","runtime_seconds":0.161592646,"progress":"892B/892B"}],"total_operations":3}}
+{"time":"2025-05-15T05:00:35.907046047Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-15T05:00:36.66962674Z","level":"INFO","msg":"stream: closing","id":"b2r78045"}
+{"time":"2025-05-15T05:00:36.669813139Z","level":"INFO","msg":"handler: closed","stream_id":"b2r78045"}
+{"time":"2025-05-15T05:00:36.669944549Z","level":"INFO","msg":"writer: Close: closed","stream_id":"b2r78045"}
+{"time":"2025-05-15T05:00:36.670059127Z","level":"INFO","msg":"sender: closed","stream_id":"b2r78045"}
+{"time":"2025-05-15T05:00:36.677622411Z","level":"INFO","msg":"stream: closed","id":"b2r78045"}

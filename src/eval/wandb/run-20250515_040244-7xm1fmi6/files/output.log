@@ -1,0 +1,16 @@
+Loading checkpoint shards:   0%|                                                                                                                                                            | 0/2 [00:08<?, ?it/s]
+评估失败：checkpoint-1500
+错误：could not determine the shape of object type 'torch.storage.UntypedStorage'
+Traceback (most recent call last):
+  File "/mnt/user/zhangjiafan/VLM-R1-main/src/eval/infer_all_ckpt.py", line 239, in <module>
+    main()
+  File "/mnt/user/zhangjiafan/VLM-R1-main/src/eval/infer_all_ckpt.py", line 189, in main
+    wandb_run = wandb.init(
+                ^^^^^^^^^^^
+  File "/mnt/user/zhangjiafan/conda_envs/seg_zero/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1451, in init
+    wi.setup_run_log_directory(run_settings)
+  File "/mnt/user/zhangjiafan/conda_envs/seg_zero/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 639, in setup_run_log_directory
+    self._safe_symlink(
+  File "/mnt/user/zhangjiafan/conda_envs/seg_zero/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 544, in _safe_symlink
+    os.remove(os.path.join(base, name))
+KeyboardInterrupt

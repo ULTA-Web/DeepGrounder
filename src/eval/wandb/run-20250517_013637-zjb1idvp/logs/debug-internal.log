@@ -1,0 +1,17 @@
+{"time":"2025-05-17T01:36:37.919621361Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/run-20250517_013637-zjb1idvp/logs/debug-core.log"}
+{"time":"2025-05-17T01:36:38.087802602Z","level":"INFO","msg":"created new stream","id":"zjb1idvp"}
+{"time":"2025-05-17T01:36:38.087994603Z","level":"INFO","msg":"stream: started","id":"zjb1idvp"}
+{"time":"2025-05-17T01:36:38.088104385Z","level":"INFO","msg":"writer: Do: started","stream_id":"zjb1idvp"}
+{"time":"2025-05-17T01:36:38.088159223Z","level":"INFO","msg":"handler: started","stream_id":"zjb1idvp"}
+{"time":"2025-05-17T01:36:38.08817951Z","level":"INFO","msg":"sender: started","stream_id":"zjb1idvp"}
+{"time":"2025-05-17T01:36:38.767940357Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-17T01:58:25.315659364Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/zhangjiafan021203-beihang-university/ckpt-test/zjb1idvp/file_stream\": unexpected EOF"}
+{"time":"2025-05-17T03:23:48.012795558Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-17T03:23:48.014008877Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-17T03:23:49.020163399Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.48055495},{"desc":"uploading wandb-summary.json","runtime_seconds":0.48052572},{"desc":"uploading config.yaml","runtime_seconds":0.207440491}],"total_operations":3}}
+{"time":"2025-05-17T03:23:50.421203752Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-17T03:23:51.050110045Z","level":"INFO","msg":"stream: closing","id":"zjb1idvp"}
+{"time":"2025-05-17T03:23:51.050449221Z","level":"INFO","msg":"handler: closed","stream_id":"zjb1idvp"}
+{"time":"2025-05-17T03:23:51.05062212Z","level":"INFO","msg":"writer: Close: closed","stream_id":"zjb1idvp"}
+{"time":"2025-05-17T03:23:51.050659804Z","level":"INFO","msg":"sender: closed","stream_id":"zjb1idvp"}
+{"time":"2025-05-17T03:23:51.060831189Z","level":"INFO","msg":"stream: closed","id":"zjb1idvp"}

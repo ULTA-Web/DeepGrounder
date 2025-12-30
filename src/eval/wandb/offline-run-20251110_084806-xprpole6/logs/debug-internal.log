@@ -1,0 +1,15 @@
+{"time":"2025-11-10T08:48:07.13345805Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/offline-run-20251110_084806-xprpole6/logs/debug-core.log"}
+{"time":"2025-11-10T08:48:07.2823333Z","level":"INFO","msg":"created new stream","id":"xprpole6"}
+{"time":"2025-11-10T08:48:07.282436113Z","level":"INFO","msg":"stream: started","id":"xprpole6"}
+{"time":"2025-11-10T08:48:07.28248829Z","level":"INFO","msg":"handler: started","stream_id":"xprpole6"}
+{"time":"2025-11-10T08:48:07.282480177Z","level":"INFO","msg":"writer: Do: started","stream_id":"xprpole6"}
+{"time":"2025-11-10T08:48:07.28257223Z","level":"INFO","msg":"sender: started","stream_id":"xprpole6"}
+{"time":"2025-11-10T08:48:07.307800823Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-11-10T08:50:25.486652756Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-11-10T08:50:25.487548851Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-11-10T08:50:25.488614096Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-11-10T08:50:25.500770818Z","level":"INFO","msg":"stream: closing","id":"xprpole6"}
+{"time":"2025-11-10T08:50:25.500850674Z","level":"INFO","msg":"handler: closed","stream_id":"xprpole6"}
+{"time":"2025-11-10T08:50:25.500887259Z","level":"INFO","msg":"writer: Close: closed","stream_id":"xprpole6"}
+{"time":"2025-11-10T08:50:25.500908312Z","level":"INFO","msg":"sender: closed","stream_id":"xprpole6"}
+{"time":"2025-11-10T08:50:25.506760057Z","level":"INFO","msg":"stream: closed","id":"xprpole6"}

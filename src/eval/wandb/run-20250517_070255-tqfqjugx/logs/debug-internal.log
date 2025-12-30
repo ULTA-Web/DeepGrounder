@@ -1,0 +1,16 @@
+{"time":"2025-05-17T07:02:55.743669153Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/run-20250517_070255-tqfqjugx/logs/debug-core.log"}
+{"time":"2025-05-17T07:02:55.925434699Z","level":"INFO","msg":"created new stream","id":"tqfqjugx"}
+{"time":"2025-05-17T07:02:55.925866974Z","level":"INFO","msg":"stream: started","id":"tqfqjugx"}
+{"time":"2025-05-17T07:02:55.925985047Z","level":"INFO","msg":"writer: Do: started","stream_id":"tqfqjugx"}
+{"time":"2025-05-17T07:02:55.926020481Z","level":"INFO","msg":"handler: started","stream_id":"tqfqjugx"}
+{"time":"2025-05-17T07:02:55.926043927Z","level":"INFO","msg":"sender: started","stream_id":"tqfqjugx"}
+{"time":"2025-05-17T07:02:56.64749228Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-17T08:51:12.675816598Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-17T08:51:12.677360766Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-17T08:51:13.678835442Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-0, summary, console lines 6949-6962","runtime_seconds":0.61658307},{"desc":"uploading output.log","runtime_seconds":0.44398587}],"total_operations":2}}
+{"time":"2025-05-17T08:51:15.438105937Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-17T08:51:16.078002337Z","level":"INFO","msg":"stream: closing","id":"tqfqjugx"}
+{"time":"2025-05-17T08:51:16.078342323Z","level":"INFO","msg":"handler: closed","stream_id":"tqfqjugx"}
+{"time":"2025-05-17T08:51:16.078480554Z","level":"INFO","msg":"writer: Close: closed","stream_id":"tqfqjugx"}
+{"time":"2025-05-17T08:51:16.078503058Z","level":"INFO","msg":"sender: closed","stream_id":"tqfqjugx"}
+{"time":"2025-05-17T08:51:16.111877359Z","level":"INFO","msg":"stream: closed","id":"tqfqjugx"}

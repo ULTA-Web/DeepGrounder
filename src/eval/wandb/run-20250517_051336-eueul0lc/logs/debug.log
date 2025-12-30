@@ -1,0 +1,24 @@
+2025-05-17 05:13:36,607 INFO    MainThread:2673 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/run-20250517_051336-eueul0lc/logs/debug.log
+2025-05-17 05:13:36,608 INFO    MainThread:2673 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/run-20250517_051336-eueul0lc/logs/debug-internal.log
+2025-05-17 05:13:36,609 INFO    MainThread:2673 [wandb_init.py:init():761] calling init triggers
+2025-05-17 05:13:36,609 INFO    MainThread:2673 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'checkpoint': 'checkpoint-5000', 'model': 'Qwen2.5-VL-3B-GRPO-RSG-lora8-train', '_wandb': {}}
+2025-05-17 05:13:36,609 INFO    MainThread:2673 [wandb_init.py:init():784] starting backend
+2025-05-17 05:13:36,609 INFO    MainThread:2673 [wandb_init.py:init():788] sending inform_init request
+2025-05-17 05:13:36,624 INFO    MainThread:2673 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-05-17 05:13:36,625 INFO    MainThread:2673 [wandb_init.py:init():798] backend started and connected
+2025-05-17 05:13:36,656 INFO    MainThread:2673 [wandb_init.py:init():891] updated telemetry
+2025-05-17 05:13:36,679 INFO    MainThread:2673 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-05-17 05:13:37,549 INFO    MainThread:2673 [wandb_init.py:init():990] starting run threads in backend
+2025-05-17 05:13:40,543 INFO    MainThread:2673 [wandb_run.py:_console_start():2375] atexit reg
+2025-05-17 05:13:40,543 INFO    MainThread:2673 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-05-17 05:13:40,544 INFO    MainThread:2673 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-05-17 05:13:40,545 INFO    MainThread:2673 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-05-17 05:13:40,552 INFO    MainThread:2673 [wandb_init.py:init():1032] run started, returning control to user process
+2025-05-17 07:02:52,696 INFO    MainThread:2673 [wandb_run.py:_finish():2112] finishing run zhangjiafan021203-beihang-university/ckpt-test/eueul0lc
+2025-05-17 07:02:52,696 INFO    MainThread:2673 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-05-17 07:02:52,708 INFO    MainThread:2673 [wandb_run.py:_restore():2322] restore
+2025-05-17 07:02:52,709 INFO    MainThread:2673 [wandb_run.py:_restore():2328] restore done
+2025-05-17 07:02:55,547 INFO    MainThread:2673 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-05-17 07:02:55,548 INFO    MainThread:2673 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-05-17 07:02:55,549 INFO    MainThread:2673 [wandb_run.py:_footer_sync_info():3917] logging synced files

@@ -1,0 +1,19 @@
+{"time":"2025-05-29T08:37:16.305997388Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/run-20250529_083715-toti7940/logs/debug-core.log"}
+{"time":"2025-05-29T08:37:16.469539441Z","level":"INFO","msg":"created new stream","id":"toti7940"}
+{"time":"2025-05-29T08:37:16.469823169Z","level":"INFO","msg":"stream: started","id":"toti7940"}
+{"time":"2025-05-29T08:37:16.469996666Z","level":"INFO","msg":"handler: started","stream_id":"toti7940"}
+{"time":"2025-05-29T08:37:16.469936282Z","level":"INFO","msg":"writer: Do: started","stream_id":"toti7940"}
+{"time":"2025-05-29T08:37:16.470052618Z","level":"INFO","msg":"sender: started","stream_id":"toti7940"}
+{"time":"2025-05-29T08:37:17.324726797Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-29T08:57:06.796892896Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 172.169.0.2:51624->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-29T08:59:36.674285374Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 172.169.0.2:60032->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-29T09:49:48.866731723Z","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/zhangjiafan021203-beihang-university/ckpt-test/toti7940/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-05-29T10:41:10.67829216Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-29T10:41:10.679482201Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-29T10:41:11.681812872Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.511531088,"progress":"64.0KB/174.5KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.511517193,"progress":"299B/299B"},{"desc":"uploading config.yaml","runtime_seconds":0.192639054,"progress":"896B/896B"}],"total_operations":3}}
+{"time":"2025-05-29T10:41:12.356759925Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-29T10:41:12.980867935Z","level":"INFO","msg":"stream: closing","id":"toti7940"}
+{"time":"2025-05-29T10:41:12.980949414Z","level":"INFO","msg":"handler: closed","stream_id":"toti7940"}
+{"time":"2025-05-29T10:41:12.981108578Z","level":"INFO","msg":"sender: closed","stream_id":"toti7940"}
+{"time":"2025-05-29T10:41:12.981101019Z","level":"INFO","msg":"writer: Close: closed","stream_id":"toti7940"}
+{"time":"2025-05-29T10:41:12.988919035Z","level":"INFO","msg":"stream: closed","id":"toti7940"}

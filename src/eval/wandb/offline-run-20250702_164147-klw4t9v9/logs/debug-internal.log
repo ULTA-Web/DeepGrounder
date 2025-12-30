@@ -1,0 +1,15 @@
+{"time":"2025-07-02T16:41:58.169917326Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/offline-run-20250702_164147-klw4t9v9/logs/debug-core.log"}
+{"time":"2025-07-02T16:41:58.465504389Z","level":"INFO","msg":"created new stream","id":"klw4t9v9"}
+{"time":"2025-07-02T16:41:58.465661925Z","level":"INFO","msg":"stream: started","id":"klw4t9v9"}
+{"time":"2025-07-02T16:41:58.465702148Z","level":"INFO","msg":"sender: started","stream_id":"klw4t9v9"}
+{"time":"2025-07-02T16:41:58.465723477Z","level":"INFO","msg":"handler: started","stream_id":"klw4t9v9"}
+{"time":"2025-07-02T16:41:58.465746069Z","level":"INFO","msg":"writer: Do: started","stream_id":"klw4t9v9"}
+{"time":"2025-07-02T16:41:58.655574164Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-02T16:42:09.107683492Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-02T16:42:09.112374263Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-02T16:42:09.113888382Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-07-02T16:42:09.190811462Z","level":"INFO","msg":"stream: closing","id":"klw4t9v9"}
+{"time":"2025-07-02T16:42:09.193779496Z","level":"INFO","msg":"handler: closed","stream_id":"klw4t9v9"}
+{"time":"2025-07-02T16:42:09.19381563Z","level":"INFO","msg":"writer: Close: closed","stream_id":"klw4t9v9"}
+{"time":"2025-07-02T16:42:09.193939621Z","level":"INFO","msg":"sender: closed","stream_id":"klw4t9v9"}
+{"time":"2025-07-02T16:42:09.203354208Z","level":"INFO","msg":"stream: closed","id":"klw4t9v9"}

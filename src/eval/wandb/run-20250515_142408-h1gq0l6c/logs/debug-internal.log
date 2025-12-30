@@ -1,0 +1,20 @@
+{"time":"2025-05-15T14:24:08.265023232Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/run-20250515_142408-h1gq0l6c/logs/debug-core.log"}
+{"time":"2025-05-15T14:24:08.426196525Z","level":"INFO","msg":"created new stream","id":"h1gq0l6c"}
+{"time":"2025-05-15T14:24:08.426262842Z","level":"INFO","msg":"stream: started","id":"h1gq0l6c"}
+{"time":"2025-05-15T14:24:08.426288571Z","level":"INFO","msg":"writer: Do: started","stream_id":"h1gq0l6c"}
+{"time":"2025-05-15T14:24:08.426446881Z","level":"INFO","msg":"handler: started","stream_id":"h1gq0l6c"}
+{"time":"2025-05-15T14:24:08.426497913Z","level":"INFO","msg":"sender: started","stream_id":"h1gq0l6c"}
+{"time":"2025-05-15T14:24:09.119159013Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-15T14:37:45.220941048Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/zhangjiafan021203-beihang-university/checkpoint-evaluation/h1gq0l6c/file_stream\": read tcp 172.169.0.4:39904->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-15T14:52:47.735058043Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/zhangjiafan021203-beihang-university/checkpoint-evaluation/h1gq0l6c/file_stream\": unexpected EOF"}
+{"time":"2025-05-15T14:59:28.668000522Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/zhangjiafan021203-beihang-university/checkpoint-evaluation/h1gq0l6c/file_stream\": unexpected EOF"}
+{"time":"2025-05-15T15:04:41.77400067Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/zhangjiafan021203-beihang-university/checkpoint-evaluation/h1gq0l6c/file_stream\": unexpected EOF"}
+{"time":"2025-05-15T15:22:29.353983923Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-15T15:22:29.35546014Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-15T15:22:30.324619068Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.420352916,"progress":"64.0KB/87.2KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.420313366,"progress":"297B/297B"},{"desc":"uploading config.yaml","runtime_seconds":0.116554903,"progress":"893B/893B"}],"total_operations":3}}
+{"time":"2025-05-15T15:22:31.113708308Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-15T15:22:31.916700126Z","level":"INFO","msg":"stream: closing","id":"h1gq0l6c"}
+{"time":"2025-05-15T15:22:31.917028018Z","level":"INFO","msg":"handler: closed","stream_id":"h1gq0l6c"}
+{"time":"2025-05-15T15:22:31.917160648Z","level":"INFO","msg":"sender: closed","stream_id":"h1gq0l6c"}
+{"time":"2025-05-15T15:22:31.917137399Z","level":"INFO","msg":"writer: Close: closed","stream_id":"h1gq0l6c"}
+{"time":"2025-05-15T15:22:31.924154143Z","level":"INFO","msg":"stream: closed","id":"h1gq0l6c"}

@@ -1,0 +1,16 @@
+{"time":"2025-05-15T06:52:58.722614009Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/run-20250515_065258-yp1och92/logs/debug-core.log"}
+{"time":"2025-05-15T06:52:58.869930179Z","level":"INFO","msg":"created new stream","id":"yp1och92"}
+{"time":"2025-05-15T06:52:58.870015517Z","level":"INFO","msg":"stream: started","id":"yp1och92"}
+{"time":"2025-05-15T06:52:58.870044645Z","level":"INFO","msg":"writer: Do: started","stream_id":"yp1och92"}
+{"time":"2025-05-15T06:52:58.87017294Z","level":"INFO","msg":"handler: started","stream_id":"yp1och92"}
+{"time":"2025-05-15T06:52:58.870293885Z","level":"INFO","msg":"sender: started","stream_id":"yp1och92"}
+{"time":"2025-05-15T06:52:59.562370479Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-15T07:48:56.878745184Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-15T07:48:56.880289822Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-15T07:48:57.882198299Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.383523471,"progress":"297B/297B"},{"desc":"uploading output.log","runtime_seconds":0.383496666,"progress":"64.0KB/87.2KB"},{"desc":"uploading config.yaml","runtime_seconds":0.165043669,"progress":"893B/893B"}],"total_operations":3}}
+{"time":"2025-05-15T07:48:58.718813472Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-15T07:48:59.387881489Z","level":"INFO","msg":"stream: closing","id":"yp1och92"}
+{"time":"2025-05-15T07:48:59.38801158Z","level":"INFO","msg":"handler: closed","stream_id":"yp1och92"}
+{"time":"2025-05-15T07:48:59.38816383Z","level":"INFO","msg":"sender: closed","stream_id":"yp1och92"}
+{"time":"2025-05-15T07:48:59.388144977Z","level":"INFO","msg":"writer: Close: closed","stream_id":"yp1och92"}
+{"time":"2025-05-15T07:48:59.396551615Z","level":"INFO","msg":"stream: closed","id":"yp1och92"}

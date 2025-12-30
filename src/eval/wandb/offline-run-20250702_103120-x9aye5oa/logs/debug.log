@@ -1,0 +1,36 @@
+2025-07-02 10:31:20,431 INFO    MainThread:117 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/offline-run-20250702_103120-x9aye5oa/logs/debug.log
+2025-07-02 10:31:20,442 INFO    MainThread:117 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/offline-run-20250702_103120-x9aye5oa/logs/debug-internal.log
+2025-07-02 10:31:20,453 INFO    MainThread:117 [wandb_init.py:init():761] calling init triggers
+2025-07-02 10:31:20,456 INFO    MainThread:117 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'checkpoint': 'checkpoint-300', 'model': 'Qwen2.5-VL-3B-GRPO-RRSISD1', '_wandb': {}}
+2025-07-02 10:31:20,464 INFO    MainThread:117 [wandb_init.py:init():773] finishing previous run: p8zheumr
+2025-07-02 10:31:20,464 INFO    MainThread:117 [wandb_run.py:_finish():2112] finishing run ckpt-test/p8zheumr
+2025-07-02 10:31:20,473 INFO    MainThread:117 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-07-02 10:31:20,489 INFO    MainThread:117 [wandb_run.py:_restore():2322] restore
+2025-07-02 10:31:20,499 INFO    MainThread:117 [wandb_run.py:_restore():2328] restore done
+2025-07-02 10:31:20,662 INFO    MainThread:117 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-07-02 10:31:20,668 INFO    MainThread:117 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-07-02 10:31:20,690 INFO    MainThread:117 [wandb_init.py:init():784] starting backend
+2025-07-02 10:31:20,694 INFO    MainThread:117 [wandb_init.py:init():788] sending inform_init request
+2025-07-02 10:31:20,736 INFO    MainThread:117 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-07-02 10:31:20,740 INFO    MainThread:117 [wandb_init.py:init():798] backend started and connected
+2025-07-02 10:31:20,746 INFO    MainThread:117 [wandb_init.py:init():891] updated telemetry
+2025-07-02 10:31:20,823 INFO    MainThread:117 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-07-02 10:31:21,187 INFO    MainThread:117 [wandb_init.py:init():990] starting run threads in backend
+2025-07-02 10:31:30,249 INFO    MainThread:117 [wandb_run.py:_console_start():2375] atexit reg
+2025-07-02 10:31:30,255 INFO    MainThread:117 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-07-02 10:31:30,258 INFO    MainThread:117 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-07-02 10:31:30,259 INFO    MainThread:117 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-07-02 10:31:30,265 INFO    MainThread:117 [wandb_init.py:init():1032] run started, returning control to user process
+2025-07-02 10:31:30,557 INFO    MainThread:117 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/offline-run-20250702_103130-1mw07tt6/logs/debug.log
+2025-07-02 10:31:30,565 INFO    MainThread:117 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/offline-run-20250702_103130-1mw07tt6/logs/debug-internal.log
+2025-07-02 10:31:30,570 INFO    MainThread:117 [wandb_init.py:init():761] calling init triggers
+2025-07-02 10:31:30,580 INFO    MainThread:117 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'checkpoint': 'checkpoint-400', 'model': 'Qwen2.5-VL-3B-GRPO-RRSISD1', '_wandb': {}}
+2025-07-02 10:31:30,582 INFO    MainThread:117 [wandb_init.py:init():773] finishing previous run: x9aye5oa
+2025-07-02 10:31:30,653 INFO    MainThread:117 [wandb_run.py:_finish():2112] finishing run ckpt-test/x9aye5oa
+2025-07-02 10:31:30,656 INFO    MainThread:117 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-07-02 10:31:30,707 INFO    MainThread:117 [wandb_run.py:_restore():2322] restore
+2025-07-02 10:31:30,750 INFO    MainThread:117 [wandb_run.py:_restore():2328] restore done
+2025-07-02 10:31:31,118 INFO    MainThread:117 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-07-02 10:31:31,123 INFO    MainThread:117 [wandb_run.py:_footer_history_summary_info():3988] rendering summary

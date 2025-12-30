@@ -1,0 +1,19 @@
+{"time":"2025-05-16T23:50:00.972640317Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/run-20250516_235000-vtok20rg/logs/debug-core.log"}
+{"time":"2025-05-16T23:50:01.183781334Z","level":"INFO","msg":"created new stream","id":"vtok20rg"}
+{"time":"2025-05-16T23:50:01.184083485Z","level":"INFO","msg":"stream: started","id":"vtok20rg"}
+{"time":"2025-05-16T23:50:01.184285574Z","level":"INFO","msg":"sender: started","stream_id":"vtok20rg"}
+{"time":"2025-05-16T23:50:01.184218709Z","level":"INFO","msg":"writer: Do: started","stream_id":"vtok20rg"}
+{"time":"2025-05-16T23:50:01.184261603Z","level":"INFO","msg":"handler: started","stream_id":"vtok20rg"}
+{"time":"2025-05-16T23:50:01.895031508Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-17T00:10:54.331174777Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/zhangjiafan021203-beihang-university/ckpt-test/vtok20rg/file_stream\": unexpected EOF"}
+{"time":"2025-05-17T00:58:49.671753983Z","level":"ERROR","msg":"sender: sendStopStatus: failed to get run stopped status: net/http: request canceled (Client.Timeout or context cancellation while reading body)"}
+{"time":"2025-05-17T01:01:51.114657481Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/zhangjiafan021203-beihang-university/ckpt-test/vtok20rg/file_stream\": unexpected EOF"}
+{"time":"2025-05-17T01:36:34.851952308Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-17T01:36:34.853285988Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-17T01:36:35.831897696Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.190456588},{"desc":"uploading wandb-summary.json","runtime_seconds":0.190439223}],"total_operations":2}}
+{"time":"2025-05-17T01:36:37.060887341Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-17T01:36:37.740765079Z","level":"INFO","msg":"stream: closing","id":"vtok20rg"}
+{"time":"2025-05-17T01:36:37.741104371Z","level":"INFO","msg":"handler: closed","stream_id":"vtok20rg"}
+{"time":"2025-05-17T01:36:37.741242444Z","level":"INFO","msg":"writer: Close: closed","stream_id":"vtok20rg"}
+{"time":"2025-05-17T01:36:37.741341818Z","level":"INFO","msg":"sender: closed","stream_id":"vtok20rg"}
+{"time":"2025-05-17T01:36:37.750142771Z","level":"INFO","msg":"stream: closed","id":"vtok20rg"}

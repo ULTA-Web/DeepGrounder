@@ -1,0 +1,18 @@
+{"time":"2025-05-15T07:48:59.495241695Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/run-20250515_074859-8nkrvqra/logs/debug-core.log"}
+{"time":"2025-05-15T07:48:59.650975972Z","level":"INFO","msg":"created new stream","id":"8nkrvqra"}
+{"time":"2025-05-15T07:48:59.651125962Z","level":"INFO","msg":"stream: started","id":"8nkrvqra"}
+{"time":"2025-05-15T07:48:59.651156069Z","level":"INFO","msg":"writer: Do: started","stream_id":"8nkrvqra"}
+{"time":"2025-05-15T07:48:59.651188493Z","level":"INFO","msg":"handler: started","stream_id":"8nkrvqra"}
+{"time":"2025-05-15T07:48:59.651176907Z","level":"INFO","msg":"sender: started","stream_id":"8nkrvqra"}
+{"time":"2025-05-15T07:49:00.523609499Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-15T08:20:02.453377638Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-05-15T08:20:02.869137591Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/zhangjiafan021203-beihang-university/checkpoint-evaluation/8nkrvqra/file_stream\": unexpected EOF"}
+{"time":"2025-05-15T08:45:06.235596146Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-15T08:45:06.236766354Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-15T08:45:07.23821647Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.437164807,"progress":"64.0KB/87.2KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.437136087,"progress":"298B/298B"},{"desc":"uploading config.yaml","runtime_seconds":0.150841076,"progress":"893B/893B"}],"total_operations":3}}
+{"time":"2025-05-15T08:45:08.181440894Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-15T08:45:08.910332228Z","level":"INFO","msg":"stream: closing","id":"8nkrvqra"}
+{"time":"2025-05-15T08:45:08.910430291Z","level":"INFO","msg":"handler: closed","stream_id":"8nkrvqra"}
+{"time":"2025-05-15T08:45:08.910508188Z","level":"INFO","msg":"sender: closed","stream_id":"8nkrvqra"}
+{"time":"2025-05-15T08:45:08.910490981Z","level":"INFO","msg":"writer: Close: closed","stream_id":"8nkrvqra"}
+{"time":"2025-05-15T08:45:08.916875123Z","level":"INFO","msg":"stream: closed","id":"8nkrvqra"}

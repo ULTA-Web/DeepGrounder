@@ -1,0 +1,7 @@
+{"time":"2025-07-26T06:10:31.073087188Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/offline-run-20250726_061029-weil8nzo/logs/debug-core.log"}
+{"time":"2025-07-26T06:10:32.622584314Z","level":"INFO","msg":"created new stream","id":"weil8nzo"}
+{"time":"2025-07-26T06:10:32.622821801Z","level":"INFO","msg":"stream: started","id":"weil8nzo"}
+{"time":"2025-07-26T06:10:32.622887929Z","level":"INFO","msg":"writer: Do: started","stream_id":"weil8nzo"}
+{"time":"2025-07-26T06:10:32.622920469Z","level":"INFO","msg":"handler: started","stream_id":"weil8nzo"}
+{"time":"2025-07-26T06:10:32.622920393Z","level":"INFO","msg":"sender: started","stream_id":"weil8nzo"}
+{"time":"2025-07-26T06:10:35.3184956Z","level":"INFO","msg":"Starting system monitor"}

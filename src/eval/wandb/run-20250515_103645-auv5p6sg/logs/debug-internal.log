@@ -1,0 +1,18 @@
+{"time":"2025-05-15T10:36:45.415234899Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/run-20250515_103645-auv5p6sg/logs/debug-core.log"}
+{"time":"2025-05-15T10:36:45.562351779Z","level":"INFO","msg":"created new stream","id":"auv5p6sg"}
+{"time":"2025-05-15T10:36:45.562460699Z","level":"INFO","msg":"stream: started","id":"auv5p6sg"}
+{"time":"2025-05-15T10:36:45.562618669Z","level":"INFO","msg":"writer: Do: started","stream_id":"auv5p6sg"}
+{"time":"2025-05-15T10:36:45.562742065Z","level":"INFO","msg":"handler: started","stream_id":"auv5p6sg"}
+{"time":"2025-05-15T10:36:45.562793119Z","level":"INFO","msg":"sender: started","stream_id":"auv5p6sg"}
+{"time":"2025-05-15T10:36:48.978376562Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-15T10:50:10.278368618Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/zhangjiafan021203-beihang-university/checkpoint-evaluation/auv5p6sg/file_stream\": dial tcp: lookup api.wandb.ai on 202.112.128.5:53: read udp 172.169.0.4:33751->202.112.128.5:53: i/o timeout"}
+{"time":"2025-05-15T10:50:32.759181509Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/zhangjiafan021203-beihang-university/checkpoint-evaluation/auv5p6sg/file_stream\": dial tcp: lookup api.wandb.ai on 202.112.128.5:53: read udp 172.169.0.4:52984->202.112.128.5:53: i/o timeout"}
+{"time":"2025-05-15T11:32:57.120921728Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-15T11:32:57.122088438Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-15T11:32:58.123674096Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.459747315},{"desc":"uploading wandb-summary.json","runtime_seconds":0.459718899},{"desc":"uploading config.yaml","runtime_seconds":0.169975749}],"total_operations":3}}
+{"time":"2025-05-15T11:32:59.046142827Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-15T11:32:59.685229187Z","level":"INFO","msg":"stream: closing","id":"auv5p6sg"}
+{"time":"2025-05-15T11:32:59.685313978Z","level":"INFO","msg":"handler: closed","stream_id":"auv5p6sg"}
+{"time":"2025-05-15T11:32:59.685367954Z","level":"INFO","msg":"writer: Close: closed","stream_id":"auv5p6sg"}
+{"time":"2025-05-15T11:32:59.685467356Z","level":"INFO","msg":"sender: closed","stream_id":"auv5p6sg"}
+{"time":"2025-05-15T11:32:59.693381608Z","level":"INFO","msg":"stream: closed","id":"auv5p6sg"}

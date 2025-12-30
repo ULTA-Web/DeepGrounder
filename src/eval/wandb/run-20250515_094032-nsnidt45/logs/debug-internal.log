@@ -1,0 +1,17 @@
+{"time":"2025-05-15T09:40:32.145292831Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/run-20250515_094032-nsnidt45/logs/debug-core.log"}
+{"time":"2025-05-15T09:40:32.292904077Z","level":"INFO","msg":"created new stream","id":"nsnidt45"}
+{"time":"2025-05-15T09:40:32.293032851Z","level":"INFO","msg":"stream: started","id":"nsnidt45"}
+{"time":"2025-05-15T09:40:32.29308473Z","level":"INFO","msg":"handler: started","stream_id":"nsnidt45"}
+{"time":"2025-05-15T09:40:32.293096664Z","level":"INFO","msg":"sender: started","stream_id":"nsnidt45"}
+{"time":"2025-05-15T09:40:32.293060809Z","level":"INFO","msg":"writer: Do: started","stream_id":"nsnidt45"}
+{"time":"2025-05-15T09:40:33.117919054Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-15T09:48:03.730483893Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/zhangjiafan021203-beihang-university/checkpoint-evaluation/nsnidt45/file_stream\": unexpected EOF"}
+{"time":"2025-05-15T10:36:42.490979496Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-15T10:36:42.492389397Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-15T10:36:43.493689295Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.468139889,"progress":"64.0KB/87.2KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.468097664,"progress":"297B/297B"},{"desc":"uploading config.yaml","runtime_seconds":0.175898782,"progress":"893B/893B"}],"total_operations":3}}
+{"time":"2025-05-15T10:36:44.431167535Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-15T10:36:45.285661382Z","level":"INFO","msg":"stream: closing","id":"nsnidt45"}
+{"time":"2025-05-15T10:36:45.285787928Z","level":"INFO","msg":"handler: closed","stream_id":"nsnidt45"}
+{"time":"2025-05-15T10:36:45.285862278Z","level":"INFO","msg":"writer: Close: closed","stream_id":"nsnidt45"}
+{"time":"2025-05-15T10:36:45.285943003Z","level":"INFO","msg":"sender: closed","stream_id":"nsnidt45"}
+{"time":"2025-05-15T10:36:45.29334613Z","level":"INFO","msg":"stream: closed","id":"nsnidt45"}

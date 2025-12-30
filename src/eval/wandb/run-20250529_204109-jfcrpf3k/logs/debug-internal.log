@@ -1,0 +1,20 @@
+{"time":"2025-05-29T20:41:09.437373012Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/run-20250529_204109-jfcrpf3k/logs/debug-core.log"}
+{"time":"2025-05-29T20:41:09.580818319Z","level":"INFO","msg":"created new stream","id":"jfcrpf3k"}
+{"time":"2025-05-29T20:41:09.581019838Z","level":"INFO","msg":"stream: started","id":"jfcrpf3k"}
+{"time":"2025-05-29T20:41:09.581107309Z","level":"INFO","msg":"writer: Do: started","stream_id":"jfcrpf3k"}
+{"time":"2025-05-29T20:41:09.581209169Z","level":"INFO","msg":"sender: started","stream_id":"jfcrpf3k"}
+{"time":"2025-05-29T20:41:09.581265063Z","level":"INFO","msg":"handler: started","stream_id":"jfcrpf3k"}
+{"time":"2025-05-29T20:41:10.346502113Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-29T21:09:12.200336197Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-05-29T21:20:57.607262144Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 172.169.0.2:46978->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-29T21:24:57.432795313Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 172.169.0.2:51528->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-29T21:25:27.388492755Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 172.169.0.2:47720->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-29T22:45:54.4005699Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-29T22:45:54.401950041Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-29T22:45:55.376015078Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.415479604,"progress":"64.0KB/173.9KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.415455912,"progress":"297B/297B"},{"desc":"uploading config.yaml","runtime_seconds":0.110542083,"progress":"897B/897B"}],"total_operations":3}}
+{"time":"2025-05-29T22:45:56.210793762Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-29T22:45:56.823776082Z","level":"INFO","msg":"stream: closing","id":"jfcrpf3k"}
+{"time":"2025-05-29T22:45:56.823994186Z","level":"INFO","msg":"handler: closed","stream_id":"jfcrpf3k"}
+{"time":"2025-05-29T22:45:56.824153595Z","level":"INFO","msg":"writer: Close: closed","stream_id":"jfcrpf3k"}
+{"time":"2025-05-29T22:45:56.824224769Z","level":"INFO","msg":"sender: closed","stream_id":"jfcrpf3k"}
+{"time":"2025-05-29T22:45:56.832903885Z","level":"INFO","msg":"stream: closed","id":"jfcrpf3k"}

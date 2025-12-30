@@ -1,0 +1,17 @@
+{"time":"2025-05-15T15:22:32.027013666Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/run-20250515_152231-jtsqp2ga/logs/debug-core.log"}
+{"time":"2025-05-15T15:22:32.16986268Z","level":"INFO","msg":"created new stream","id":"jtsqp2ga"}
+{"time":"2025-05-15T15:22:32.169975463Z","level":"INFO","msg":"stream: started","id":"jtsqp2ga"}
+{"time":"2025-05-15T15:22:32.170041868Z","level":"INFO","msg":"writer: Do: started","stream_id":"jtsqp2ga"}
+{"time":"2025-05-15T15:22:32.170171044Z","level":"INFO","msg":"handler: started","stream_id":"jtsqp2ga"}
+{"time":"2025-05-15T15:22:32.170307756Z","level":"INFO","msg":"sender: started","stream_id":"jtsqp2ga"}
+{"time":"2025-05-15T15:22:33.180693525Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-15T15:44:06.189035808Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/zhangjiafan021203-beihang-university/checkpoint-evaluation/jtsqp2ga/file_stream\": unexpected EOF"}
+{"time":"2025-05-15T16:22:41.024294101Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-15T16:22:41.025559489Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-15T16:22:42.028960665Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.161979248},{"desc":"uploading wandb-summary.json","runtime_seconds":0.161959373}],"total_operations":2}}
+{"time":"2025-05-15T16:22:43.132019108Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-15T16:22:43.847727594Z","level":"INFO","msg":"stream: closing","id":"jtsqp2ga"}
+{"time":"2025-05-15T16:22:43.847830103Z","level":"INFO","msg":"handler: closed","stream_id":"jtsqp2ga"}
+{"time":"2025-05-15T16:22:43.8478514Z","level":"INFO","msg":"writer: Close: closed","stream_id":"jtsqp2ga"}
+{"time":"2025-05-15T16:22:43.847977279Z","level":"INFO","msg":"sender: closed","stream_id":"jtsqp2ga"}
+{"time":"2025-05-15T16:22:43.854520125Z","level":"INFO","msg":"stream: closed","id":"jtsqp2ga"}

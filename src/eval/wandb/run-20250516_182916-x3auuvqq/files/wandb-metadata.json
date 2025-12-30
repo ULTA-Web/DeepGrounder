@@ -1,0 +1,38 @@
+{
+  "os": "Linux-6.8.0-31-generic-x86_64-with-glibc2.31",
+  "python": "CPython 3.11.11",
+  "startedAt": "2025-05-16T18:29:16.406381Z",
+  "program": "/mnt/user/zhangjiafan/VLM-R1-main/src/eval/infer_all_ckpt.py",
+  "codePath": "infer_all_ckpt.py",
+  "email": "zhangjiafan021203@gmail.com",
+  "root": "/mnt/user/zhangjiafan/VLM-R1-main/src/eval",
+  "host": "1b86fe914d0d",
+  "executable": "/mnt/user/zhangjiafan/conda_envs/seg_zero/bin/python",
+  "codePathLocal": "infer_all_ckpt.py",
+  "cpu_count": 64,
+  "cpu_count_logical": 128,
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "7999426224128",
+      "used": "270351917056"
+    }
+  },
+  "memory": {
+    "total": "270052188160"
+  },
+  "cpu": {
+    "count": 64,
+    "countLogical": 128
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 4090",
+      "memoryTotal": "25757220864",
+      "cudaCores": 16384,
+      "architecture": "Ada"
+    }
+  ],
+  "cudaVersion": "12.2"
+}

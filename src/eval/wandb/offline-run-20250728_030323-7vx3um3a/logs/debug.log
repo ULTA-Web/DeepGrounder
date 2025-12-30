@@ -1,0 +1,23 @@
+2025-07-28 03:03:23,942 INFO    MainThread:1498 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/offline-run-20250728_030323-7vx3um3a/logs/debug.log
+2025-07-28 03:03:23,943 INFO    MainThread:1498 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/offline-run-20250728_030323-7vx3um3a/logs/debug-internal.log
+2025-07-28 03:03:23,943 INFO    MainThread:1498 [wandb_init.py:init():761] calling init triggers
+2025-07-28 03:03:23,944 INFO    MainThread:1498 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'checkpoint': 'checkpoint-4000', 'model': 'justGRPO-dIOU0.5-Semantic-DIOR', '_wandb': {}}
+2025-07-28 03:03:23,944 INFO    MainThread:1498 [wandb_init.py:init():784] starting backend
+2025-07-28 03:03:23,944 INFO    MainThread:1498 [wandb_init.py:init():788] sending inform_init request
+2025-07-28 03:03:23,965 INFO    MainThread:1498 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-07-28 03:03:23,966 INFO    MainThread:1498 [wandb_init.py:init():798] backend started and connected
+2025-07-28 03:03:23,976 INFO    MainThread:1498 [wandb_init.py:init():891] updated telemetry
+2025-07-28 03:03:23,991 INFO    MainThread:1498 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-07-28 03:03:24,231 INFO    MainThread:1498 [wandb_init.py:init():990] starting run threads in backend
+2025-07-28 03:03:26,687 INFO    MainThread:1498 [wandb_run.py:_console_start():2375] atexit reg
+2025-07-28 03:03:26,688 INFO    MainThread:1498 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-07-28 03:03:26,689 INFO    MainThread:1498 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-07-28 03:03:26,689 INFO    MainThread:1498 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-07-28 03:03:26,699 INFO    MainThread:1498 [wandb_init.py:init():1032] run started, returning control to user process
+2025-07-28 19:22:47,529 INFO    MainThread:1498 [wandb_run.py:_finish():2112] finishing run ckpt-test/7vx3um3a
+2025-07-28 19:22:47,529 INFO    MainThread:1498 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-07-28 19:22:47,543 INFO    MainThread:1498 [wandb_run.py:_restore():2322] restore
+2025-07-28 19:22:47,544 INFO    MainThread:1498 [wandb_run.py:_restore():2328] restore done
+2025-07-28 19:22:47,549 INFO    MainThread:1498 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-07-28 19:22:47,549 INFO    MainThread:1498 [wandb_run.py:_footer_history_summary_info():3988] rendering summary

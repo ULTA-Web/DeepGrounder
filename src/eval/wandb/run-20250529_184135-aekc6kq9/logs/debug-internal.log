@@ -1,0 +1,17 @@
+{"time":"2025-05-29T18:41:35.412005077Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/run-20250529_184135-aekc6kq9/logs/debug-core.log"}
+{"time":"2025-05-29T18:41:35.600466459Z","level":"INFO","msg":"created new stream","id":"aekc6kq9"}
+{"time":"2025-05-29T18:41:35.60068028Z","level":"INFO","msg":"stream: started","id":"aekc6kq9"}
+{"time":"2025-05-29T18:41:35.600904808Z","level":"INFO","msg":"handler: started","stream_id":"aekc6kq9"}
+{"time":"2025-05-29T18:41:35.600951527Z","level":"INFO","msg":"sender: started","stream_id":"aekc6kq9"}
+{"time":"2025-05-29T18:41:35.600853933Z","level":"INFO","msg":"writer: Do: started","stream_id":"aekc6kq9"}
+{"time":"2025-05-29T18:41:36.367086408Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-29T20:29:54.199107297Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-05-29T20:41:06.869532503Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-29T20:41:06.870553421Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-29T20:41:07.872068316Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.424289141,"progress":"64.0KB/173.9KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.42427235,"progress":"293B/293B"},{"desc":"uploading config.yaml","runtime_seconds":0.143093811,"progress":"897B/897B"}],"total_operations":3}}
+{"time":"2025-05-29T20:41:08.692322841Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-29T20:41:09.322891939Z","level":"INFO","msg":"stream: closing","id":"aekc6kq9"}
+{"time":"2025-05-29T20:41:09.32309322Z","level":"INFO","msg":"handler: closed","stream_id":"aekc6kq9"}
+{"time":"2025-05-29T20:41:09.323139688Z","level":"INFO","msg":"writer: Close: closed","stream_id":"aekc6kq9"}
+{"time":"2025-05-29T20:41:09.323157195Z","level":"INFO","msg":"sender: closed","stream_id":"aekc6kq9"}
+{"time":"2025-05-29T20:41:09.34238192Z","level":"INFO","msg":"stream: closed","id":"aekc6kq9"}

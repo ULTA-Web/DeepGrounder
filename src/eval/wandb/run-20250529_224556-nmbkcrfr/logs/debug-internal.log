@@ -1,0 +1,17 @@
+{"time":"2025-05-29T22:45:57.016933574Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mnt/user/zhangjiafan/VLM-R1-main/src/eval/wandb/run-20250529_224556-nmbkcrfr/logs/debug-core.log"}
+{"time":"2025-05-29T22:45:57.175507413Z","level":"INFO","msg":"created new stream","id":"nmbkcrfr"}
+{"time":"2025-05-29T22:45:57.175618495Z","level":"INFO","msg":"stream: started","id":"nmbkcrfr"}
+{"time":"2025-05-29T22:45:57.175751626Z","level":"INFO","msg":"writer: Do: started","stream_id":"nmbkcrfr"}
+{"time":"2025-05-29T22:45:57.175855798Z","level":"INFO","msg":"handler: started","stream_id":"nmbkcrfr"}
+{"time":"2025-05-29T22:45:57.175899363Z","level":"INFO","msg":"sender: started","stream_id":"nmbkcrfr"}
+{"time":"2025-05-29T22:45:57.913598871Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-29T22:58:44.426159291Z","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/zhangjiafan021203-beihang-university/ckpt-test/nmbkcrfr/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-05-30T00:49:56.428697141Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-30T00:49:56.429921843Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-30T00:49:57.431439427Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.448841531,"progress":"297B/297B"},{"desc":"uploading output.log","runtime_seconds":0.448819632,"progress":"64.0KB/173.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.14913976,"progress":"897B/897B"}],"total_operations":3}}
+{"time":"2025-05-30T00:49:58.180005407Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-30T00:49:58.824351658Z","level":"INFO","msg":"stream: closing","id":"nmbkcrfr"}
+{"time":"2025-05-30T00:49:58.824671694Z","level":"INFO","msg":"handler: closed","stream_id":"nmbkcrfr"}
+{"time":"2025-05-30T00:49:58.824723047Z","level":"INFO","msg":"writer: Close: closed","stream_id":"nmbkcrfr"}
+{"time":"2025-05-30T00:49:58.824910622Z","level":"INFO","msg":"sender: closed","stream_id":"nmbkcrfr"}
+{"time":"2025-05-30T00:49:58.836622618Z","level":"INFO","msg":"stream: closed","id":"nmbkcrfr"}

@@ -1,0 +1,4 @@
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [03:37<00:00, 108.51s/it]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.48, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+评估失败：checkpoint-500
+错误：[Errno 2] No such file or directory: '../../RRSISD/rec_jsons_processed/val.jsonl'
