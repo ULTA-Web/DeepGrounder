@@ -12,10 +12,6 @@ bash setup.sh
 
 ## 📊 Inference
 
-![image](./assets/data2.png)
-
-1. Download the provided [LISA-Grounding images](https://huggingface.co/datasets/omlab/VLM-R1/resolve/main/lisa-test.zip).
-
 ```bash
 cd ./src/eval
 
