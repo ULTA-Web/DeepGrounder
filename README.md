@@ -52,7 +52,7 @@ data_paths="path/to/refcoco_train.jsonl:path/to/refcocop_train.jsonl:path/to/ref
 image_folders="path/to/coco:path/to/coco:path/to/coco"
 ```
 
-4. ``bash run_scripts/run_grpo_rec.sh``
+4. ``bash src/open-r1-multimodal/run_scripts/run_grpo_rec.sh``
 
 ## 🤝 Acknowledgements
 
