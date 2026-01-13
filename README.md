@@ -19,7 +19,6 @@ bash setup.sh
 ```bash
 cd ./src/eval
 
-# Remember to change the model path, image root, and annotation path in the script
 python infer_allbox.py
 ```
 
