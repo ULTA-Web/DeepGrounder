@@ -10,6 +10,19 @@ conda activate deepgrounder
 bash setup.sh
 ```
 
+## 📊 Inference
+
+![image](./assets/data2.png)
+
+1. Download the provided [LISA-Grounding images](https://huggingface.co/datasets/omlab/VLM-R1/resolve/main/lisa-test.zip).
+
+```bash
+cd ./src/eval
+
+# Remember to change the model path, image root, and annotation path in the script
+python infer_allbox.py
+```
+
 ## 💪🏻 Training
 
 
@@ -25,7 +38,7 @@ cd LLaMA-Factory
 pip install -e ".[torch,metrics]"
 ```
 
-2. Download the dataset_info.json, mllm_rec_json.json, and qwen2_5_vl_full_sft.yaml we provided [here](https://huggingface.co/datasets/omlab/VLM-R1/tree/main/sft_related). Put the json files in the `LLaMA-Factory/data` directory and the yaml file in the `LLaMA-Factory/examples/train_full` directory.
+2. Use the mllm_rec_json.json that we provided, nodify the dataset_info.json and qwen2_5_vl_full_sft.yaml. Put the json files in the `LLaMA-Factory/data` directory and the yaml file in the `LLaMA-Factory/examples/train_full` directory.
 3. Run the following command to train the SFT model.
 
 ```bash
