@@ -45,3 +45,8 @@ image_folders="path/to/coco:path/to/coco:path/to/coco"
 ```
 
 4. ``bash run_scripts/run_grpo_rec.sh``
+
+## 🤝 Acknowledgements
+
+We would like to express our sincere gratitude to [DeepSeek](https://github.com/deepseek-ai/DeepSeek-R1), [Open-R1](https://github.com/huggingface/open-r1), [QwenVL](https://github.com/QwenLM/Qwen2.5-VL), [Open-R1-Multimodal](https://github.com/EvolvingLMMs-Lab/open-r1-multimodal), [VLM-R1](https://github.com/om-ai-lab/VLM-R1/), [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)for providing open-source resources that contributed to the development of this project.
+
