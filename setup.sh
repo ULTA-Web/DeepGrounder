@@ -1,4 +1,7 @@
-# conda create -n vlm-r1 python=3.11 
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "${BASH_SOURCE[0]}")"
+# Install CUDA-compatible torch and torchvision before running this script.
 # conda activate vlm-r1
 
 # Install the packages in open-r1-multimodal .
@@ -6,7 +9,7 @@ cd src/open-r1-multimodal # We edit the grpo.py and grpo_trainer.py in open-r1 r
 pip install -e ".[dev]"
 
 # Addtional modules
-pip install wandb==0.18.3
+pip install wandb
 pip install tensorboardx
 pip install qwen_vl_utils torchvision
 pip install flash-attn --no-build-isolation

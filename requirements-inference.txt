@@ -1,0 +1,7 @@
+# Install a CUDA-compatible torch build separately.
+transformers==4.49.0
+huggingface-hub[cli]>=0.29.0,<1.0
+accelerate>=1.2.1
+qwen-vl-utils
+Pillow
+tqdm

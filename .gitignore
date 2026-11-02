@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+outputs/
+checkpoints/
+data/DIOR_RSVG/
+data/processed/
+wandb/
+*.safetensors
+*.bin
