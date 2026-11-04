@@ -1,33 +1,29 @@
 import argparse
-from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor, AutoModel
-from qwen_vl_utils import process_vision_info
-import torch
 import json
-from tqdm import tqdm
 import os
-from PIL import Image as PILImage
 import re
-import cv2
-import numpy as np
 
 
 def parse_args():
     parser = argparse.ArgumentParser()
     # parser.add_argument("--reasoning_model_path", type=str,default="//wsl.localhost/Ubuntu-24.04/mnt/dataset/zhangjiafan/Checkpoints/DIOR_RSVG/GRPO-dIOU0.5-Semantic-DIOR")
-    parser.add_argument("--reasoning_model_path", type=str, default="G:/model_cache/checkpoint-4500-best")
+    parser.add_argument("--reasoning_model_path", type=str, required=True)
     # parser.add_argument("--json_path", type=str, default="../../rec_jsons_processed/test.jsonl")
     # parser.add_argument("--image_base_path", type=str, default="D:/Data/RRSIS-D/images/rrsisd/JPEGImages")
 
-    parser.add_argument("--json_path", type=str, default="E:/VLM-R1-main/rec_jsons_processed/rrsisd_test.jsonl")
-    parser.add_argument("--image_base_path", type=str, default="G:/data/RRSISD/JPEGImages")
+    parser.add_argument("--json_path", type=str, required=True)
+    parser.add_argument("--image_base_path", type=str, required=True)
     parser.add_argument("--output_dir", type=str, default="../outputs")
     parser.add_argument("--result_images_dir", type=str, default="../outputs/box_QWEN")
+    parser.add_argument("--resize_size", type=int, default=840)
+    parser.add_argument("--max_new_tokens", type=int, default=1024)
     return parser.parse_args()
 
 
 def extract_bbox(output_text, x_factor, y_factor):
+    answer = re.search(r'<answer>(.*?)</answer>', output_text, re.DOTALL)
     json_pattern = r'{[^}]+}'
-    json_match = re.search(json_pattern, output_text)
+    json_match = re.search(json_pattern, answer.group(1) if answer else output_text)
     content_bbox = None
 
     if json_match:
@@ -35,7 +31,10 @@ def extract_bbox(output_text, x_factor, y_factor):
             data = json.loads(json_match.group(0))
             bbox_key = next((key for key in data.keys() if 'bbox' in key.lower()), None)
             if bbox_key and len(data[bbox_key]) == 4:
-                content_bbox = [round(int(x) * x_factor) for x in data[bbox_key]]
+                values = data[bbox_key]
+                content_bbox = [round(float(v) * s) for v, s in zip(values, [x_factor, y_factor, x_factor, y_factor])]
+                if content_bbox[2] <= content_bbox[0] or content_bbox[3] <= content_bbox[1]:
+                    return None
         except:
             pass
     return content_bbox
@@ -73,6 +72,11 @@ def evaluate_bboxes(pred_bboxes, gt_bboxes):
     valid_count = 0
 
     for pred, gt in zip(pred_bboxes, gt_bboxes):
+        if pred is None:
+            # Failed output remains in the denominator and contributes zero IoU.
+            valid_count += 1
+            total_union += max(0, gt[2] - gt[0]) * max(0, gt[3] - gt[1])
+            continue
         intersect, union, iou = calculate_bbox_iou(pred, gt)
         print("iou:", iou)
         total_intersect += intersect
@@ -93,11 +97,16 @@ def evaluate_bboxes(pred_bboxes, gt_bboxes):
 
 
 def process_single_case(case, processor, reasoning_model, args):
+        from qwen_vl_utils import process_vision_info
+        from PIL import Image as PILImage
+        import torch
     # try:
         image_path = os.path.join(args.image_base_path, case['file_name'])
         image = PILImage.open(image_path).convert("RGB")
         original_width, original_height = image.size
-        resize_size = 840
+        resize_size = args.resize_size
+        if resize_size <= 0:
+            raise ValueError("resize_size must be positive")
         x_factor, y_factor = original_width / resize_size, original_height / resize_size
 
         # QUESTION_TEMPLATE = "{} Output the one bbox for the most closely matched object in JSON format.You have to make sure that the target you're looking for is framed exactly in the bbox."
@@ -118,7 +127,7 @@ def process_single_case(case, processor, reasoning_model, args):
             "role": "user",
             "content": [
                 {"type": "image", "image": image.resize((resize_size, resize_size), PILImage.BILINEAR)},
-                {"type": "text", "text": QUESTION_TEMPLATE.format(case['sent'])}
+                {"type": "text", "text": QUESTION_TEMPLATE.format(Question=case['sent'], Answer='{"bbox": [x1, y1, x2, y2]}')}
             ]
         }]
 
@@ -130,10 +139,10 @@ def process_single_case(case, processor, reasoning_model, args):
             videos=video_inputs,
             padding=True,
             return_tensors="pt",
-        ).to("cuda")
+        ).to(reasoning_model.device)
 
         with torch.no_grad():
-            generated_ids = reasoning_model.generate(**inputs, use_cache=True, max_new_tokens=1024, do_sample=False)
+            generated_ids = reasoning_model.generate(**inputs, use_cache=True, max_new_tokens=args.max_new_tokens, do_sample=False)
 
         generated_ids_trimmed = [out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)]
         output_text = \
@@ -146,6 +155,9 @@ def process_single_case(case, processor, reasoning_model, args):
 
 def main():
     args = parse_args()
+    from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor
+    from tqdm import tqdm
+    import torch
     os.makedirs(args.output_dir, exist_ok=True)
     os.makedirs(args.result_images_dir, exist_ok=True)
 
@@ -153,7 +165,7 @@ def main():
         args.reasoning_model_path,
         torch_dtype=torch.bfloat16,
         device_map="auto",
-    ).cuda().eval()
+    ).eval()
 
     # import torch
     # from modelscope import AutoTokenizer, AutoModel
@@ -179,9 +191,11 @@ def main():
             # try:
                 pred, gt = process_single_case(case, processor, reasoning_model, args)
                 print(pred, gt)
-                if pred and gt:
-                    pred_bboxes.append(pred)
-                    gt_bboxes.append(gt)
+                pred_bboxes.append(pred)
+                gt_bboxes.append(gt)
+                if pred is None:
+                    error_count += 1
+                    err_f.write(f"{case['file_name']}\tNo valid predicted bbox\n")
             # except Exception as e:
             #     error_count += 1
             #     err_f.write(f"{case['file_name']}\tError: {str(e)}\n")
@@ -191,7 +205,7 @@ def main():
     # 打印最终结果
     print("\nEvaluation Results:")
     print(f"Test Samples: {len(test_cases)}")
-    print(f"Valid Samples: {len(pred_bboxes)}")
+    print(f"Valid Samples: {len(pred_bboxes) - error_count}")
     print(f"Error Samples: {error_count}\n")
 
     if metrics:
